@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="4" failures="4" errors="0" time="0">
+    <testsuite name="src/__tests__/App.test.jsx" timestamp="2026-03-02T23:11:27.088Z" hostname="DESKTOP-5LHBG8U" tests="1" failures="1" errors="0" skipped="0" time="0">
+        <testcase classname="src/__tests__/App.test.jsx" name="src/__tests__/App.test.jsx" time="0">
+            <failure message="Cannot find module &apos;@testing-library/dom&apos;
+Require stack:
+- C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js" type="Error">
+Error: Cannot find module &apos;@testing-library/dom&apos;
+Require stack:
+- C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js
+ ❯ Object.&lt;anonymous&gt; node_modules/@testing-library/react/dist/pure.js:46:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+Serialized Error: { code: &apos;MODULE_NOT_FOUND&apos;, requireStack: [ &apos;C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js&apos; ] }
+            </failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="src/__tests__/basic.test.js" timestamp="2026-03-02T23:11:27.113Z" hostname="DESKTOP-5LHBG8U" tests="1" failures="1" errors="0" skipped="0" time="0">
+        <testcase classname="src/__tests__/basic.test.js" name="src/__tests__/basic.test.js" time="0">
+            <failure message="Cannot find module &apos;@testing-library/dom&apos;
+Require stack:
+- C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js" type="Error">
+Error: Cannot find module &apos;@testing-library/dom&apos;
+Require stack:
+- C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js
+ ❯ Object.&lt;anonymous&gt; node_modules/@testing-library/react/dist/pure.js:46:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+Serialized Error: { code: &apos;MODULE_NOT_FOUND&apos;, requireStack: [ &apos;C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js&apos; ] }
+            </failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="src/__tests__/ClaimDetail.test.jsx" timestamp="2026-03-02T23:11:27.116Z" hostname="DESKTOP-5LHBG8U" tests="1" failures="1" errors="0" skipped="0" time="0">
+        <testcase classname="src/__tests__/ClaimDetail.test.jsx" name="src/__tests__/ClaimDetail.test.jsx" time="0">
+            <failure message="Cannot find module &apos;@testing-library/dom&apos;
+Require stack:
+- C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js" type="Error">
+Error: Cannot find module &apos;@testing-library/dom&apos;
+Require stack:
+- C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js
+ ❯ Object.&lt;anonymous&gt; node_modules/@testing-library/react/dist/pure.js:46:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+Serialized Error: { code: &apos;MODULE_NOT_FOUND&apos;, requireStack: [ &apos;C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js&apos; ] }
+            </failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="src/__tests__/Products.test.jsx" timestamp="2026-03-02T23:11:27.119Z" hostname="DESKTOP-5LHBG8U" tests="1" failures="1" errors="0" skipped="0" time="0">
+        <testcase classname="src/__tests__/Products.test.jsx" name="src/__tests__/Products.test.jsx" time="0">
+            <failure message="Cannot find module &apos;@testing-library/dom&apos;
+Require stack:
+- C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js" type="Error">
+Error: Cannot find module &apos;@testing-library/dom&apos;
+Require stack:
+- C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js
+ ❯ Object.&lt;anonymous&gt; node_modules/@testing-library/react/dist/pure.js:46:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+Serialized Error: { code: &apos;MODULE_NOT_FOUND&apos;, requireStack: [ &apos;C:\Users\UserPC\Desktop\Algonquin\project\personal-insurance-app\frontend\node_modules\@testing-library\react\dist\pure.js&apos; ] }
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+Users table CREATE TABLE users ( id INT AUTO_INCREMENT PRIMARY KEY, auth0_id VARCHAR(100) UNIQUE NOT NULL, name VARCHAR(100), email VARCHAR(100) UNIQUE NOT NULL, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP );
+
+-- Insurance Products CREATE TABLE insurance_products ( id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100) NOT NULL, category VARCHAR(50) NOT NULL, coverage_details TEXT, base_price DECIMAL(10,2) NOT NULL, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP );
+
+-- Quotes CREATE TABLE quotes ( id INT AUTO_INCREMENT PRIMARY KEY, quote_number VARCHAR(50) UNIQUE NOT NULL, user_id INT NOT NULL, product_id INT NOT NULL, coverage_amount DECIMAL(10,2), deductible DECIMAL(10,2), calculated_price DECIMAL(10,2) NOT NULL, status VARCHAR(20) DEFAULT 'Pending', created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, expires_at TIMESTAMP NULL, FOREIGN KEY (user_id) REFERENCES users(id), FOREIGN KEY (product_id) REFERENCES insurance_products(id) );
+
+-- Policies CREATE TABLE policies ( id INT AUTO_INCREMENT PRIMARY KEY, policy_number VARCHAR(50) UNIQUE NOT NULL, user_id INT NOT NULL, product_id INT NOT NULL, quote_id INT NOT NULL, start_date TIMESTAMP NOT NULL, end_date TIMESTAMP NOT NULL, premium_amount DECIMAL(10,2) NOT NULL, status VARCHAR(20) DEFAULT 'Active', created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, FOREIGN KEY (user_id) REFERENCES users(id), FOREIGN KEY (product_id) REFERENCES insurance_products(id), FOREIGN KEY (quote_id) REFERENCES quotes(id) );
